@@ -5,7 +5,7 @@ import SetupForm from './SetupForm'
 import Loading from './Loading'
 import Error from './Error'
 import { decode } from 'html-entities'
-import Modal from './Modal';
+
 
 const getRandomInt = (max) => {
     return Math.floor(Math.random() * Math.floor(max))

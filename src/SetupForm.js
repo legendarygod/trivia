@@ -1,9 +1,8 @@
-import { Box, Button, FormControl, MenuItem, InputLabel, Select, TextField, CircularProgress } from '@mui/material'
+import { Box, Button, FormControl, MenuItem, InputLabel, Select, TextField,} from '@mui/material'
 import React from 'react'
 import { useGlobalContext } from './context'
-import Error from './Error'
 import Loading from './Loading'
-import SelectField from './SelectField'
+
 
 
 const SetupForm = () => {
