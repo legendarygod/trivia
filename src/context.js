@@ -132,7 +132,7 @@ const AppProvider = ({ children }) => {
     }
     const closeModal = () => {
         setWaiting(true)
-        
+        setCorrect(0)
         setIsModalOpen(false)
     }
 
